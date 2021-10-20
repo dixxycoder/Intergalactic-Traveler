@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StarController.swift
 //  Intergalactic Traveler
 //
 //  Created by Grant Spraker on 10/20/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StarController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

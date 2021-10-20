@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		257B67BA271DC9C6004FEF32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B67B9271DC9C6004FEF32 /* AppDelegate.swift */; };
 		257B67BC271DC9C6004FEF32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B67BB271DC9C6004FEF32 /* SceneDelegate.swift */; };
-		257B67BE271DC9C6004FEF32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B67BD271DC9C6004FEF32 /* ViewController.swift */; };
 		257B67C1271DC9C6004FEF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257B67BF271DC9C6004FEF32 /* Main.storyboard */; };
 		257B67C6271DC9C8004FEF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257B67C4271DC9C8004FEF32 /* LaunchScreen.storyboard */; };
 		257B67CF271DCD5F004FEF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257B67C2271DC9C8004FEF32 /* Assets.xcassets */; };
 		257B67D1271DD2A5004FEF32 /* StarViewColtrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B67D0271DD2A5004FEF32 /* StarViewColtrollerViewController.swift */; };
+		25DA6005272079E2003444A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DA6004272079E2003444A5 /* ViewController.swift */; };
+		25DA6007272085E6003444A5 /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DA6006272085E6003444A5 /* StarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		257B67B6271DC9C6004FEF32 /* Intergalactic Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intergalactic Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		257B67B9271DC9C6004FEF32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		257B67BB271DC9C6004FEF32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		257B67BD271DC9C6004FEF32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		257B67C0271DC9C6004FEF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		257B67C2271DC9C8004FEF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257B67C5271DC9C8004FEF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		257B67C7271DC9C8004FEF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257B67D0271DD2A5004FEF32 /* StarViewColtrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewColtrollerViewController.swift; sourceTree = "<group>"; };
+		25DA6004272079E2003444A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25DA6006272085E6003444A5 /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 			children = (
 				257B67B9271DC9C6004FEF32 /* AppDelegate.swift */,
 				257B67BB271DC9C6004FEF32 /* SceneDelegate.swift */,
-				257B67BD271DC9C6004FEF32 /* ViewController.swift */,
 				257B67BF271DC9C6004FEF32 /* Main.storyboard */,
+				25DA6006272085E6003444A5 /* StarController.swift */,
+				25DA6004272079E2003444A5 /* ViewController.swift */,
 				257B67C2271DC9C8004FEF32 /* Assets.xcassets */,
 				257B67C4271DC9C8004FEF32 /* LaunchScreen.storyboard */,
 				257B67C7271DC9C8004FEF32 /* Info.plist */,
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257B67BE271DC9C6004FEF32 /* ViewController.swift in Sources */,
 				257B67BA271DC9C6004FEF32 /* AppDelegate.swift in Sources */,
 				257B67BC271DC9C6004FEF32 /* SceneDelegate.swift in Sources */,
+				25DA6007272085E6003444A5 /* StarController.swift in Sources */,
+				25DA6005272079E2003444A5 /* ViewController.swift in Sources */,
 				257B67D1271DD2A5004FEF32 /* StarViewColtrollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
