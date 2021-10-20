@@ -11,8 +11,9 @@
 		257B67BC271DC9C6004FEF32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B67BB271DC9C6004FEF32 /* SceneDelegate.swift */; };
 		257B67BE271DC9C6004FEF32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B67BD271DC9C6004FEF32 /* ViewController.swift */; };
 		257B67C1271DC9C6004FEF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257B67BF271DC9C6004FEF32 /* Main.storyboard */; };
-		257B67C3271DC9C8004FEF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257B67C2271DC9C8004FEF32 /* Assets.xcassets */; };
 		257B67C6271DC9C8004FEF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257B67C4271DC9C8004FEF32 /* LaunchScreen.storyboard */; };
+		257B67CF271DCD5F004FEF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257B67C2271DC9C8004FEF32 /* Assets.xcassets */; };
+		257B67D1271DD2A5004FEF32 /* StarViewColtrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B67D0271DD2A5004FEF32 /* StarViewColtrollerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		257B67C2271DC9C8004FEF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257B67C5271DC9C8004FEF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		257B67C7271DC9C8004FEF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257B67D0271DD2A5004FEF32 /* StarViewColtrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewColtrollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		257B67AD271DC9C6004FEF32 = {
 			isa = PBXGroup;
 			children = (
+				257B67D0271DD2A5004FEF32 /* StarViewColtrollerViewController.swift */,
 				257B67B8271DC9C6004FEF32 /* Intergalactic Traveler */,
 				257B67B7271DC9C6004FEF32 /* Products */,
 			);
@@ -126,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				257B67C6271DC9C8004FEF32 /* LaunchScreen.storyboard in Resources */,
-				257B67C3271DC9C8004FEF32 /* Assets.xcassets in Resources */,
+				257B67CF271DCD5F004FEF32 /* Assets.xcassets in Resources */,
 				257B67C1271DC9C6004FEF32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +144,7 @@
 				257B67BE271DC9C6004FEF32 /* ViewController.swift in Sources */,
 				257B67BA271DC9C6004FEF32 /* AppDelegate.swift in Sources */,
 				257B67BC271DC9C6004FEF32 /* SceneDelegate.swift in Sources */,
+				257B67D1271DD2A5004FEF32 /* StarViewColtrollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
