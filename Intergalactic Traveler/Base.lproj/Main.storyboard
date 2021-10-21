@@ -45,6 +45,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="buleDwarfButtom:" destination="s3l-3K-nHS" eventType="touchUpInside" id="smW-06-KPF"/>
                                     <segue destination="YZ3-nM-rHV" kind="show" identifier="blueDwarf" id="CKd-IR-6vK"/>
                                 </connections>
                             </button>
@@ -80,19 +81,20 @@
                     <navigationItem key="navigationItem" id="U9L-Xy-BmV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="s3l-3K-nHS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="902.89855072463774" y="46.875"/>
         </scene>
-        <!--View Controller-->
+        <!--Star Controller-->
         <scene sceneID="GK7-T9-dvI">
             <objects>
-                <viewController id="YZ3-nM-rHV" sceneMemberID="viewController">
+                <viewController id="YZ3-nM-rHV" customClass="StarController" customModule="Intergalactic_Traveler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ymB-my-GDS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s8t-dp-Seo">
-                                <rect key="frame" x="67" y="248" width="240" height="128"/>
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -100,10 +102,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="SmW-0C-0Gq"/>
+                    <connections>
+                        <outlet property="starImage" destination="s8t-dp-Seo" id="0MQ-xS-igf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ayz-nj-6il" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1725" y="44"/>
+            <point key="canvasLocation" x="1724.6376811594205" y="43.526785714285715"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WKX-fH-kaU">
